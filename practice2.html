@@ -1,0 +1,45 @@
+<!--
+HTML파일은 정해진 작성 형식과 문법이 존재
+    1.<!DOCTYPE html> : 현재 파일은 html파일이다.
+    2.<html></html> : HTML 태그를 연다. 이 사이에 넣는 코드들이 html코드가 된다.
+    3.<head></head> : 보이지 않는, 페이지에 대한 메타데이터
+        - <tittle> : 웹페이지 이름
+    4.<body></body> : 실제로 페이지에 보이는 콘텐츠들의 정보들
+-->
+<!-- Ex
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>테스트</title>
+        </head>
+        <body>
+            <h1>안녕</h1>
+        </body>
+    </html>
+-->
+<!DOCTYPE html>
+    <html lang="ko"> <!--사이트에서 주로 사용되는 언어 표기-->
+        <head> <!--사이트를 어떻게 바라보는가? 의 느낌-->
+            <link 
+                rel="shortcut icon"
+                sizes="16x16 32x32 64x64"
+                href="https://nomadcoders.co/m.png" /> 
+                <!-- link shortcut icon : title옆 작은 탭 이미지-->
+            <title>Practice2.html</title>
+            <meta charset="utf-8"/> <!--글자 깨짐을 방지-->
+            <meta name="description" content="This is d4eho's practice place"/>
+            <!--description 태그는 title 태그와 함께 구글이 검색할 때 찾는 태그이다.
+            ex) 
+            title : Netflix - Watch TV shows online ~~
+            description : Netflix is a streaming service that ~~
+            -->
+            <meta property="og:image" content="https://nomadcoders.co/m.png"/>
+            <meta property="og:title" content="Nomad Corders"/>
+            <meta property="og:type" content="website"/>
+            <meta property="og:url" content="https://nomadcoders.co/"/>
+            <meta property="og:description" content="코딩은 진짜를 만들어보는거야! ~~"/>
+        </head>
+        <body>
+
+        </body>
+    </html>
