@@ -38,8 +38,24 @@ HTML파일은 정해진 작성 형식과 문법이 존재
             <meta property="og:type" content="website"/>
             <meta property="og:url" content="https://nomadcoders.co/"/>
             <meta property="og:description" content="코딩은 진짜를 만들어보는거야! ~~"/>
+            <!-- 구글검색 시 description과 title을 찾아 보여주듯이
+            네이버나 카카오톡은 og태그를 페이스북은 fb태그를 찾아 출력한다.-->
         </head>
         <body>
+            <form>
+                <input required placeholder="Name" type="text"/><br>
+                <input required placeholder="Last Name" type="text"/><br>
+                <input required placeholder="Username" type="text"/><br>
+                <input required placeholder="Password" minlength="8" type="password"/><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="submit" value="Create Account" />
+                <hr>
+                <input type="file" accept=".png"/>
+                <!--여기서 png,jpg 등 이미지 파일 형식에 구애받지 않을려면 accept="image/*"-->
 
+            </form>
         </body>
     </html>
