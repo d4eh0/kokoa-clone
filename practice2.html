@@ -42,11 +42,16 @@ HTML파일은 정해진 작성 형식과 문법이 존재
             네이버나 카카오톡은 og태그를 페이스북은 fb태그를 찾아 출력한다.-->
         </head>
         <body>
-            <form>
-                <input required placeholder="Name" type="text"/><br>
-                <input required placeholder="Last Name" type="text"/><br>
-                <input required placeholder="Username" type="text"/><br>
-                <input required placeholder="Password" minlength="8" type="password"/><br>
+            <form> <!--form은 데이터를 수집하는컨트롤러-->
+                <div></div><label for="website">Website</label></div>
+                <div></div><input id="website" required placeholder="Name" type="text"/></div>
+                <!--label은 input과 함께 작동한다. (label이 input을 activate)
+                    id는 body 안에 어떤 태그에든 넣을 수 있는 attribute이다.
+                    element당 하나의 id만을 가질 수 있다 (고유식별자임, 중복된 id를 사용하면x)
+                    Why? CSS가 태그를 지정하여 꾸미기 위해서 ID가 필요하기 때문이다!-->
+                    <div><input required placeholder="Last Name" type="text"/></div>
+                    <div><input required placeholder="Username" type="text"/></div>
+                    <div><input required placeholder="Password" minlength="8" type="password"/></div>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -54,8 +59,17 @@ HTML파일은 정해진 작성 형식과 문법이 존재
                 <input type="submit" value="Create Account" />
                 <hr>
                 <input type="file" accept=".png"/>
+                <footer>&copy; 2022 N.C </footer>
                 <!--여기서 png,jpg 등 이미지 파일 형식에 구애받지 않을려면 accept="image/*"-->
-
+                
+                <!--
+                none-semantic : 기능은 있지만 의미는 없는 태그 ; div, span
+                semantic : 마찬가지로 기능도 있음, 보기만해도 그 의미를 짐작하게 만들어주는 태그.
+                    → 확인하기 간편하고 팀 작업시 유리하다. ; header, main, footer
+                예전에 사이트는 의미없는 div id=" "로 꽉차있었지만
+                최근에는 semantic 태그가 만들어졌다. ; {div id="main"} → {main}
+                    → 코드 이해도 쉽고, 간결하게 하기 위해 되도록 div를 남발하지말고 semantic tag들을 쓰자
+                -->
             </form>
         </body>
     </html>
