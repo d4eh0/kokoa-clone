@@ -40,3 +40,28 @@
         - 하지만 padding은 사방에 가질 수 있다.
         - 이와 같은 상황에서 margin을 위, 아래에 적용하고 싶다? -> inline 요소를 block으로
     -->
+    <!--
+        justify-content : 주축(수평x)
+        align-items : 교차축(수직x)
+        'vh' : px과 달리 화면크기에 따라 유동적으로 변함.
+        https://flexboxfroggy.com/#ko
+        1. justify-content (가로 정렬방향)
+            *flex-start : 요소들을 컨테이너 '왼쪽'으로 정렬
+            *flex-end : 요소들을 컨테이너 '오른쪽'으로 정렬
+            *center : 요소들을 컨테이너 '가운데'로 정렬
+            *space-between : ㅁ-ㅁ-ㅁ 
+            *space-around : -ㅁ--ㅁ--ㅁ-
+            *space-evenly : -ㅁ-ㅁ-ㅁ-
+            -> 'ㅁ' : 요소, '-' : 간격
+        2. align-items (세로 정렬방향)
+            *flex-start : 요소들을 컨테이너 '꼭대기'으로 정렬
+            *flex-end : 요소들을 컨테이너 '바닥'으로 정렬
+            *center : 요소들을 컨테이너 세로선 상의 '가운데'로 정렬
+            *baseline : 요소들을 컨테이너의 시작 위치에 정렬합니다.
+            *stretch : 요소들을 컨테이너에 맞도록 늘립니다.
+        3. flex-direction (컨테이너 안에서 요소들을 정렬방향)
+            *row: 요소들을 텍스트의 방향과 동일하게 정렬합니다.
+            *row-reverse: 요소들을 텍스트의 반대 방향으로 정렬합니다.
+            *column: 요소들을 위에서 아래로 정렬합니다.
+            *column-reverse: 요소들을 아래에서 위로 정렬합니다.
+    -->
