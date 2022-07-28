@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <audio class="player" controls ref="player">
+      <source src="" ref="source" />
+    </audio>
+    <input
+      type="file"
+      id="soundFileInput"
+      class="soundFileInput"
+      accept="audio/*"
+      @change="onAudioSelected"
+    />
+    <script type="text/javascript" src="test.js"></script>
+  </body>
+</html>
