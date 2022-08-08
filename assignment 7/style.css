@@ -1,0 +1,46 @@
+body {
+  background-color: #f5f5f5;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 1000;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#father {
+  display: flex;
+  width: 435px;
+  height: 650px;
+  flex-wrap: wrap;
+  background-color: #f5f5f5;
+  justify-content: space-between;
+}
+
+#father > div {
+  width: 200px;
+  height: 300px;
+  border: 5px solid white;
+}
+
+#father > div:nth-child(1) {
+  background-color: tomato;
+}
+#father > div:nth-child(2) {
+  background-color: teal;
+}
+#father > div:nth-child(3) {
+  background-color: burlywood;
+}
+#father > div:nth-child(4) {
+  background-color: thistle;
+}
+div div div {
+  background-color: white;
+  height: 100px;
+  width: 202px;
+  position: relative;
+  top: 5px;
+  left: -1px;
+}
