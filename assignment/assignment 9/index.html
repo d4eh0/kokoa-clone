@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 9</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <i class="fa-solid fa-xmark fa-2x"></i>
+      </div>
+      <div class="status-bar__column">
+        <h2>Playlist</h2>
+      </div>
+      <div class="status-bar__column"></div>
+    </div>
+
+    <div class="playlist-title">
+      <div>
+        <div class="playlist-title__image">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div class="playlist-title__text">
+        <span>Random Love</span>
+        <h5>by Divay Kapoor</h5>
+      </div>
+    </div>
+
+    <form class="play-option">
+      <button type="button" id="button-play">
+        <i class="fa-solid fa-play"></i><span>Play</span>
+      </button>
+      <button type="button" id="button-like">
+        <i class="fa-solid fa-heart"></i>
+      </button>
+      <button type="button" id="button-add"><i class="fas fa-plus"></i></button>
+    </form>
+
+    <div class="playlist-content">
+      <div class="playlist-list">
+        <div class="playlist-list__color"></div>
+        <div class="playlist-list__text">
+          <h3 class="music-title">Matargasti</h3>
+          <span class="music-singer">Mohit Chauhan</span>
+        </div>
+      </div>
+      <div class="playlist-list">
+        <div class="playlist-list__color"></div>
+        <div class="playlist-list__text">
+          <h3 class="music-title">Attitude</h3>
+          <span class="music-singer">Lewis OfManㆍAttitude</span>
+        </div>
+      </div>
+      <div class="playlist-list">
+        <div class="playlist-list__color"></div>
+        <div class="playlist-list__text">
+          <h3 class="music-title">Try Everything</h3>
+          <span class="music-singer">ShakiraㆍZootopia</span>
+        </div>
+      </div>
+      <div class="playlist-list">
+        <div class="playlist-list__color"></div>
+        <div class="playlist-list__text">
+          <h3 class="music-title">Sunflower</h3>
+          <span class="music-singer">Joesph VincentㆍSunflower</span>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/b425e88374.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

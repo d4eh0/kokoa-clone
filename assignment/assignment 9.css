@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap");
+
+body {
+  background-color: whitesmoke;
+  width: 350px;
+  height: 750px;
+  border: solid 5px #00c6ad;
+  font-family: "Roboto", sans-serif;
+}
+.status-bar {
+  padding: 40px 20px 10px 20px;
+  display: flex;
+  align-items: center;
+}
+.status-bar__column {
+  width: 33%;
+}
+.status-bar__column:first-child i {
+  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.playlist-title__image {
+  background-color: #ffbd11;
+  height: 100px;
+  width: 100px;
+  border: solid 2px black;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 15px 15px 20px;
+}
+.playlist-title__text {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 50px 20px 0px;
+}
+.playlist-title__text > span {
+  font-weight: 800;
+  font-size: 30px;
+}
+.h-6 {
+  color: white;
+  height: 50px;
+  width: 50px;
+}
+h5 {
+  margin: 5px 0px;
+  font-weight: 550;
+}
+.play-option {
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  border-width: 2px 2px 6px 2px;
+}
+#button-play {
+  height: 50px;
+  width: 130px;
+  margin: 0px 10px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+#button-like,
+#button-add {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.fa-play {
+  margin: 10px 10px 10px 0px;
+}
+button > span {
+  font-size: 20px;
+  font-weight: 600;
+}
+.playlist-title {
+  display: flex;
+}
+.playlist-list {
+  padding: 20px 20px;
+}
+
+.playlist-list {
+  display: flex;
+  align-items: center;
+}
+.playlist-list__text {
+  display: flex;
+  flex-direction: column;
+}
+.music-title {
+  font-size: 20px;
+}
+.music-singer {
+  font-size: 12px;
+}
+
+h3 {
+  margin: 0px 0px 5px;
+  font-weight: 800;
+}
+.playlist-list__color {
+  height: 50px;
+  width: 50px;
+  border: solid 2px black;
+  border-radius: 20%;
+  margin: 0px 10px 0px 0px;
+}
+.playlist-list:nth-child(1) .playlist-list__color {
+  background-color: #f85a2a;
+}
+.playlist-list:nth-child(2) .playlist-list__color {
+  background-color: #ff89bb;
+}
+.playlist-list:nth-child(3) .playlist-list__color {
+  background-color: #1947e5;
+}
+.playlist-list:last-child .playlist-list__color {
+  background-color: #00c6ad;
+}
