@@ -1,0 +1,214 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Roboto:wght@300;700;900&display=swap");
+
+header {
+  background-color: #ff0558;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 45px;
+}
+.status-bar {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 15px;
+}
+.status-bar:nth-child(2) {
+  font-size: 17px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+}
+.status-bar:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+form {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -20px;
+  background-color: white;
+  margin: 0px 15px;
+  border-radius: 30px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.search-name {
+  border: none;
+}
+.search-name,
+.search-icon {
+  width: 80%;
+}
+.search-name::placeholder {
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 13px;
+}
+.search-icon {
+  color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: flex-end;
+}
+.article-top__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  width: 90%;
+}
+.article-top__content {
+  display: flex;
+}
+.content-image {
+  height: 140px;
+  width: 100px;
+  margin-left: 15px;
+}
+.content-image > img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+.content-information {
+  margin-left: 15px;
+}
+.content-information__name {
+  display: flex;
+  flex-direction: column;
+}
+.content-information__name span:first-child {
+  font-size: 15px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  margin: 5px 0px;
+}
+.content-information__name span:last-child {
+  font-size: 10px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.4);
+  margin: 5px 0px;
+}
+
+.content-informaiton__rate > i {
+  color: #ffce33;
+}
+.content-informaiton__rate i:last-child {
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.content-informaiton__tag {
+  display: flex;
+}
+.content-informaiton__tag .tag {
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 15px 5px;
+  margin-left: 0px;
+  font-size: 11px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 100;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+
+.content-informaiton__action {
+  display: flex;
+}
+.content-informaiton__action div {
+  background-color: #ff0558;
+  border-radius: 50%;
+  height: 25px;
+  width: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1px;
+}
+
+.content-informaiton__action span {
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  font-size: 10px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 100;
+  margin-left: 35px;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+}
+.article-middle > h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 20px 15px;
+  width: 90%;
+}
+.watched {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+.watched-movies {
+  margin: 0px 15px;
+}
+.watched-movies__image {
+  height: 100px;
+  width: 65px;
+}
+.watched-movies__image > img {
+  height: 100%;
+  width: 100%;
+  border-radius: 7px;
+}
+.watched-movies__rate {
+  margin-top: 7px;
+  flex-wrap: nowrap;
+}
+.watched-movies__rate > i {
+  color: #ffce33;
+}
+.watched-movies__rate i:last-child {
+  color: rgba(0, 0, 0, 0.1);
+}
+.article-bottom > h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 20px 15px;
+  width: 90%;
+}
+
+.bottom {
+  display: flex;
+}
+.bottom-image {
+  height: 140px;
+  width: 100px;
+  margin-left: 15px;
+  margin-right: 20px;
+}
+.bottom-image > img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+.bottom-information__name {
+  font-size: 15px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  margin: 20px 0px;
+}
+.bottom-information__text {
+  font-size: 10px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.4);
+  margin: 5px 0px;
+}
