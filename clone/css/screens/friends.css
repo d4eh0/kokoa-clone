@@ -1,0 +1,13 @@
+#friends-display-link {
+  background-color: #fafafa;
+  padding: 16px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#friends-display-link i {
+  margin: 0px 5px;
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 15px;
+}

@@ -62,8 +62,12 @@ form {
   margin-bottom: 20px;
   width: 90%;
 }
+.article-top {
+  width: 100%;
+}
 .article-top__content {
   display: flex;
+  width: 100%;
 }
 .content-image {
   height: 140px;
@@ -153,7 +157,8 @@ form {
 .watched {
   display: flex;
   flex-wrap: nowrap;
-  overflow-x: scroll;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 .watched-movies {
   margin: 0px 15px;
