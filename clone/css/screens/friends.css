@@ -11,3 +11,15 @@
   color: rgba(0, 0, 0, 0.3);
   font-size: 15px;
 }
+
+.friends-screen__channel {
+  padding: 0px 15px;
+}
+.friends-screen__header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 15px 0px;
+  color: rgba(0, 0, 0, 0.5);
+}

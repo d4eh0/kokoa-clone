@@ -1,0 +1,107 @@
+header {
+  padding: 55px 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* avatar */
+
+.pl-avatar__workout,
+.pl-avatar__summer,
+.pl-avatar__christmas {
+  height: 200px;
+  width: 200px;
+  border-radius: 50px;
+  margin-bottom: 40px;
+}
+.pl-avatar__workout {
+  box-shadow: 0px 0px 20px 2px rgba(255, 255, 255, 0.4);
+}
+.pl-avatar__summer {
+  box-shadow: 0px 0px 20px 2px rgb(245, 255, 102);
+}
+.pl-avatar__christmas {
+  box-shadow: 0px 0px 20px 2px rgb(255, 154, 87);
+}
+
+/* title, subtitle */
+
+.pl-text__title {
+  display: flex;
+  justify-content: center;
+  font-size: 27px;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.pl-text__subtitle {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 35px;
+}
+
+/* action */
+
+.pl-action button {
+  height: 50px;
+  width: 140px;
+  margin: 0px 5px;
+  border-radius: 25px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+.pl-action .fa-solid {
+  margin-right: 8px;
+}
+.pl-action .fa-shuffle {
+  color: black;
+}
+.pl-action__play {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+/* info-text, like */
+
+footer {
+  margin-top: -10px;
+  padding: 0px 20px;
+}
+.pl-info {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 15px 15px;
+}
+.pl-info__text span {
+  color: white;
+  font-size: 15px;
+}
+.pl-info__like {
+  text-align: center;
+}
+.playlist {
+  padding: 0px 20px;
+}
+.playlist h2 {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.playlist-column__text h5 {
+  font-size: 15px;
+}
+.playlist-column__text h6 {
+  font-size: 12px;
+}

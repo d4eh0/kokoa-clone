@@ -1,0 +1,10 @@
+.status-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 40px;
+}
+.move-to-index:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
