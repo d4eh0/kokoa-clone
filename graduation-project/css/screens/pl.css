@@ -74,8 +74,8 @@ header {
 
 /* info-text, like */
 
-footer {
-  margin-top: -10px;
+.footer-pl {
+  margin-top: 20px;
   padding: 0px 20px;
 }
 .pl-info {
@@ -90,6 +90,24 @@ footer {
 }
 .pl-info__like {
   text-align: center;
+}
+@keyframes heartbeat {
+  0% {
+    color: white;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.2);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+.fa-heart:hover {
+  will-change: transform;
+  animation: heartbeat 1s linear infinite;
+  cursor: pointer;
 }
 .playlist {
   padding: 0px 20px;

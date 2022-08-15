@@ -106,10 +106,14 @@
 
     <!--trendig music-->
 
-    <footer>
+    <footer class="footer-main">
       <h1>Trending In Korea</h1>
       <div class="playlist">
-        <div class="playlist-list">
+        <div
+          class="playlist-list"
+          OnClick="location.href ='playlist-html/attention.html'"
+          style="cursor: pointer"
+        >
           <div class="playlist-column">
             <img
               class="playlist-column__avatar"
@@ -124,7 +128,11 @@
             <i class="fa-solid fa-ellipsis-vertical"></i>
           </div>
         </div>
-        <div class="playlist-list">
+        <div
+          class="playlist-list"
+          OnClick="location.href ='playlist-html/sneakers.html'"
+          style="cursor: pointer"
+        >
           <div class="playlist-column">
             <img
               class="playlist-column__avatar"
@@ -139,7 +147,11 @@
             <i class="fa-solid fa-ellipsis-vertical"></i>
           </div>
         </div>
-        <div class="playlist-list">
+        <div
+          class="playlist-list"
+          OnClick="location.href ='playlist-html/love-dive.html'"
+          style="cursor: pointer"
+        >
           <div class="playlist-column">
             <img
               class="playlist-column__avatar"
@@ -156,7 +168,16 @@
         </div>
       </div>
     </footer>
-
+    <div id="splash-screen"></div>
+    <div id="only-mobile">
+      <div id="only-mobile__title">
+        <i class="fa-solid fa-triangle-exclamation fa-2x"></i
+        ><a class="warring">Warring</a>
+      </div>
+      <div id="only-mobile__subtitle">
+        Please make the width of the screen smaller.
+      </div>
+    </div>
     <script
       src="https://kit.fontawesome.com/b425e88374.js"
       crossorigin="anonymous"
